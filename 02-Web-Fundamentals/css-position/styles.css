@@ -1,0 +1,23 @@
+* {
+  font-size: 40px;
+  color: white;
+  margin: 0;
+}
+
+.parent {
+  background-color: orange;
+  padding: 20px;
+  margin: 20px;
+}
+
+.child-one {
+  background-color: green;
+}
+
+.child-two {
+  background-color: purple;
+}
+
+.child-three {
+  background-color: blue;
+}
