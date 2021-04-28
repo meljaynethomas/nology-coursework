@@ -1,6 +1,5 @@
 body {
   background-color: #cccccc;
-  text-align: center;
 }
 
 p {
@@ -26,10 +25,31 @@ p {
 }
 
 .french-flag {
-  padding: 50px;
+  padding: 0px;
+  background-color: white;
+  position: relative;
+  width: 200px;
+  height: 150px;
+  margin: auto; 
+
 }
 
-.blue {
-  display: block;
-  background-color: blue;
+.french-flag::before {
+  content: "";
+  width: 33.33%;
+  height: 100%;
+  background-color: #0055A4;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.french-flag::after {
+  content: "";
+  width: 33.33%;
+  height: 100%;
+  background-color: #EF4135;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
