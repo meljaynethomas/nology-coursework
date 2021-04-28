@@ -2,54 +2,56 @@ body {
   background-color: #cccccc;
 }
 
-p {
+.german-flag {
+  padding: 50px;
   width: 200px;
-  height: 50px;
   margin: 0 auto;
 }
 
-.german-flag {
-  padding: 50px;
-}
-
-.black {
+.top {
   background-color: black;
+  height: 50px;
 }
 
-.red-horizontal {
+.middle {
   background-color: #ff0000;
+  height: 50px;
 }
 
-.yellow {
+.bottom {
   background-color: yellow;
+  height: 50px;
 }
 
 .french-flag {
-  padding: 0px;
-  background-color: white;
-  position: relative;
   width: 200px;
-  height: 150px;
-  margin: auto; 
-
+  margin: 0 auto;
+  position: relative;
 }
 
-.french-flag::before {
-  content: "";
-  width: 33.33%;
-  height: 100%;
-  background-color: #0055A4;
+.left {
+  background-color: blue;
+  width: 33.3%;
+  height: 150px;
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.french-flag::after {
-  content: "";
-  width: 33.33%;
-  height: 100%;
-  background-color: #EF4135;
+.centre {
+  background-color: white;
+  width: 33.3%;
+  height: 150px;
+  margin: 0 auto;
+
+}
+
+.right {
+  background-color: red;
+  width: 33.3%;
+  height: 150px;
   position: absolute;
   top: 0;
   right: 0;
 }
+
