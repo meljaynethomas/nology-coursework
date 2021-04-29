@@ -23,6 +23,18 @@ body {
   height: 50px;
 }
 
+.german-flag:hover .top {
+  background-color: red;
+}
+
+.german-flag:hover .middle {
+  background-color: white;
+}
+
+.german-flag:hover .bottom {
+  background-color: green;
+}
+
 .french-flag {
   width: 200px;
   margin: 0 auto;
@@ -55,3 +67,14 @@ body {
   right: 0;
 }
 
+.french-flag:hover .left {
+  background-color: rgb(62, 190, 109);
+}
+
+.french-flag:hover .centre {
+  background-color: white;
+}
+
+.french-flag:hover .right {
+  background-color: #f38c0d;
+}
