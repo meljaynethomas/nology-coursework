@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+#nav-green {
+  background-color: green;
+  color: white;
+}
+
+.nav-black {
+  background-color: black;
+  color: white;
+}
