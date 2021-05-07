@@ -22,9 +22,23 @@
 }
 
 .flex-container-2 {
-  font-size: 50px;
+  height: 500px;
+  display: flex;
+  flex-flow: column wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 20px;
+}
+
+.panel, .rh-panel{
+  border: solid 2px;
+  margin: 10px;
+  flex: 1 1 auto;
 }
 
 .panel {
-  border: solid 2px;
+  width: 900px;
+}
+
+.rh-panel {
 }
