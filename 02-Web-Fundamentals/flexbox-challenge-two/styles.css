@@ -59,13 +59,32 @@ main {
   justify-content: space-between;
 }
 
-.panel {
+.panel-1 {
   border: solid black 2px;
   height: 25%;
   padding: 15px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+}
+
+.panel-2 {
+  border: solid black 2px;
+  height: 25%;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.panel-3 {
+  border: solid black 2px;
+  height: 25%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 
 .box {
@@ -75,7 +94,7 @@ main {
   color: white;
   font-weight: bold;
   font-size: 18px;
-  justify-content: space-evenly;
+  margin: 10px;
 }
 
 #right-panel {
