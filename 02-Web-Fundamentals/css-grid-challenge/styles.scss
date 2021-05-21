@@ -1,5 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}  
+}
+
+.container {
+  display: grid;
+  
+  div {
+    border: solid 3px cornflowerblue;
+  }
+
+}
