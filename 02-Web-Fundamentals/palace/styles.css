@@ -67,3 +67,19 @@ span {
   font-size: 1.5em;
   color: #B48CE0;
 }
+
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: flex-end;
+}
