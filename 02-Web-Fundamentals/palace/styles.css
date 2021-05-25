@@ -68,18 +68,37 @@ span {
   color: #B48CE0;
 }
 
-.container1 {
+#container1 {
   display: flex;
   justify-content: center;
 }
 
-.container2 {
+#container2 {
   display: flex;
-  justify-content: space-around;
-  margin: 100px;
+  justify-content: space-evenly;
 }
 
-.container3 {
+#container3 {
   display: flex;
   justify-content: flex-end;
+  margin-right: 120px;
 }
+
+.line-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.vertical-line {
+  height: 100px;
+  background-color: #B48CE0;
+  width: 2px;
+  opacity: 0.6;
+}
+
+.bottom-line-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 400px;
+}
+
