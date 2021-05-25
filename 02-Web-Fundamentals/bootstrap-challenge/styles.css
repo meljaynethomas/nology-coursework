@@ -1,0 +1,15 @@
+[class^="con"] {
+  background-color: #ffd5cd;
+  border: solid 4px #c3aed6;
+}
+
+[class^="col"] {
+  border: solid 1px #c3aed6;
+  min-height: 200px;
+}
+
+p {
+  color: #8675a9;
+  text-align: center;
+  font-size: 11px;
+}
