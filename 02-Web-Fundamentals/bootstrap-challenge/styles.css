@@ -1,18 +1,19 @@
 [class^="con"] {
-  background-color: #ffd5cd;
-  border: solid 4px #c3aed6;
+  background-color: #c3aed6;
+}
+
+[class^="row"] {
+  border: solid 2px #c3aed6;
+  min-height: 300px;
+  padding: 10px;
 }
 
 [class^="col"] {
-  border: solid 1px #c3aed6;
-  min-height: 200px;
-}
-[class^="row"] {
-
-}
-
-p {
+  padding: 10px;
+  background-color: #ffd5cd;
+  border: solid 2px #c3aed6;
+  min-height: 150px;
   color: #8675a9;
   text-align: center;
-  font-size: 12px;
+  border-radius: 5px;
 }
