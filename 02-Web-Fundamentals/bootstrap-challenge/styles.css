@@ -7,9 +7,12 @@
   border: solid 1px #c3aed6;
   min-height: 200px;
 }
+[class^="row"] {
+
+}
 
 p {
   color: #8675a9;
   text-align: center;
-  font-size: 11px;
+  font-size: 12px;
 }
