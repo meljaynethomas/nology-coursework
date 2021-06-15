@@ -16,12 +16,7 @@ $color-yellow: #F8ECC1;
   background-color: $color-secondary;
 }
 
-a:link,
-a:visited {
-  text-decoration: none;
-}
-
-nav {
+.navigation {
   height: 10vh;
   padding: 0 40px;
   display: flex;
@@ -30,7 +25,41 @@ nav {
   font-size: 20px;
 }
 
-header {
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
   padding: 0 40px;
   margin: 100px 0;
+
+  &__name {
+    font-size: 60px;
+  }
+
+  &__title {
+    font-size: 40px;
+  }
+}
+
+.img-homepage {
+  border: solid 2px red;
+  display: flex;
+  height: 350px;
+  width: 100%;
+
+  &__no-seeds {
+    height: 90%;
+    width: 25%;
+  }
+
+  &__dandelion {
+    height: 90%;
+    width: 25%;
+  }
 }

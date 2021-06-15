@@ -8,12 +8,7 @@
   background-color: #F8F8FF;
 }
 
-a:link,
-a:visited {
-  text-decoration: none;
-}
-
-nav {
+.navigation {
   height: 10vh;
   padding: 0 40px;
   display: flex;
@@ -22,7 +17,37 @@ nav {
   font-size: 20px;
 }
 
-header {
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
   padding: 0 40px;
   margin: 100px 0;
+}
+.header__name {
+  font-size: 60px;
+}
+.header__title {
+  font-size: 40px;
+}
+
+.img-homepage {
+  border: solid 2px red;
+  display: flex;
+  height: 350px;
+  width: 100%;
+}
+.img-homepage__no-seeds {
+  height: 90%;
+  width: 25%;
+}
+.img-homepage__dandelion {
+  height: 90%;
+  width: 25%;
 }
