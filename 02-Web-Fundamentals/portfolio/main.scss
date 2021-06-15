@@ -1,5 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
+
+$font-main: "Josefin Slab", serif;
+
+$color-primary: #606060;
+$color-secondary: #F8F8FF;
+$color-green: #D2E2E0;
+$color-yellow: #F8ECC1;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $font-main;
+  color: $color-primary;
+  background-color: $color-secondary;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+nav {
+  height: 10vh;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+header {
+  padding: 0 40px;
+  margin: 100px 0;
 }
