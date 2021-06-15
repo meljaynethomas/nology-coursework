@@ -63,3 +63,27 @@ a:hover {
     width: 25%;
   }
 }
+
+// check use of text-align below - shouldn't i be able to use align-items? it's not working!
+
+.about {
+  display: flex;
+  flex-direction: column;
+
+  &__heading {
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 0;
+    background-color: $color-green;
+    border: solid 2px red;
+  }
+
+  &__text {
+    font-size: 25px;
+    text-align: center;
+    padding: 40px 0;
+    background-color: $color-green;
+    border: solid 2px red;
+  }
+
+}
