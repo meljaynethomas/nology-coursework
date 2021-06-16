@@ -40,7 +40,6 @@ a:hover {
 .img-homepage {
   border: solid 2px red;
   display: flex;
-  height: 350px;
   width: 100%;
 }
 .img-homepage__no-seeds {
@@ -55,6 +54,7 @@ a:hover {
 .about {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 .about__heading {
   font-size: 40px;
@@ -66,7 +66,71 @@ a:hover {
 .about__text {
   font-size: 25px;
   text-align: center;
+  height: 100%;
   padding: 40px 0;
+  background-color: #D2E2E0;
+  border: solid 2px red;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.skills__heading {
+  font-size: 40px;
+  text-align: left;
+  padding: 40px 40px;
+  background-color: #F8ECC1;
+  border: solid 2px red;
+}
+.skills__text {
+  font-size: 25px;
+  text-align: left;
+  padding: 40px 40px;
+  height: 100%;
+  background-color: #F8ECC1;
+  border: solid 2px red;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.projects__heading {
+  font-size: 40px;
+  text-align: left;
+  padding: 40px 40px;
+  background-color: #F8F8FF;
+  border: solid 2px red;
+}
+.projects__text {
+  font-size: 25px;
+  text-align: left;
+  padding: 40px 40px;
+  height: 100%;
+  background-color: #F8F8FF;
+  border: solid 2px red;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.contact__heading {
+  font-size: 40px;
+  text-align: center;
+  padding: 40px 0;
+  background-color: #D2E2E0;
+  border: solid 2px red;
+}
+.contact__email {
+  font-size: 25px;
+  text-align: center;
+  padding: 40px 0;
+  height: 100%;
   background-color: #D2E2E0;
   border: solid 2px red;
 }
