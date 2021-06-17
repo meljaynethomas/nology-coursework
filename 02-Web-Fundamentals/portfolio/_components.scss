@@ -1,0 +1,17 @@
+.img-homepage {
+  border: solid 2px red;
+  display: flex;
+  width: 100%;
+
+  &__no-seeds {
+    width: 25%;
+  }
+
+  &__dandelion {
+    width: 25%;
+  }
+}
+
+.wave-2 {
+  background-color: $color-yellow;
+}
