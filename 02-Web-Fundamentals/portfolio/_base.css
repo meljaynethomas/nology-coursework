@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Slab", serif;
+  color: #606060;
+  background-color: #F8F8FF;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
