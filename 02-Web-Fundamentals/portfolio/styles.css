@@ -134,14 +134,18 @@ a:hover {
   width: 100%;
 }
 .homepage__image__dandelion-image-small {
-  max-width: 400px;
-  min-width: 300px;
+  width: auto;
+  max-width: 100%;
+  height: auto;
 }
 .homepage__image__dandelion-image {
-  max-width: 400px;
-  min-width: 300px;
+  width: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-.wave-2 {
-  background-color: #F8ECC1;
+@media screen and (max-width: 768px) {
+  .homepage__image__dandelion-image-small {
+    display: none;
+  }
 }
