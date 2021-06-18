@@ -1,5 +1,4 @@
 .homepage__image {
-  border: solid 2px red;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -18,10 +17,42 @@
 }
 
 .about__image {
-  border: solid 2px red;
   display: flex;
   justify-content: flex-end;
   background-color: $color-green;
+}
+
+.skills__image {
+  display: flex;
+  justify-content: flex-end;
+  background-color: $color-yellow;
+}
+
+.projects__image {
+  display: flex; 
+  justify-content: flex-end;
+  background-color: $color-secondary;
+}
+
+.contact__image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: $color-green;
+
+  &__dandelion-image-small {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      background-color: $color-green;
+    }
+
+  &__dandelion-image {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      background-color: $color-green;
+  }  
 }
 
 @media screen and (max-width:768px) {
