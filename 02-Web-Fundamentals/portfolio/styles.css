@@ -44,6 +44,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: 100%;
 }
 .about__heading {
   font-size: 40px;
@@ -59,10 +60,6 @@ a:hover {
   padding: 40px 0;
   background-color: #D2E2E0;
   border: solid 2px red;
-}
-.about__image {
-  background-color: #D2E2E0;
-  text-align: right;
 }
 
 .skills {
@@ -142,6 +139,13 @@ a:hover {
   width: auto;
   max-width: 100%;
   height: auto;
+}
+
+.about__image {
+  border: solid 2px red;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #D2E2E0;
 }
 
 @media screen and (max-width: 768px) {

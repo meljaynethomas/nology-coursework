@@ -17,6 +17,13 @@
   }  
 }
 
+.about__image {
+  border: solid 2px red;
+  display: flex;
+  justify-content: flex-end;
+  background-color: $color-green;
+}
+
 @media screen and (max-width:768px) {
   .homepage__image__dandelion-image-small {
     display: none;
