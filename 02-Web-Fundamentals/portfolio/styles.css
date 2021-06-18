@@ -5,7 +5,6 @@
   box-sizing: border-box;
   font-family: "Josefin Slab", serif;
   color: #606060;
-  background-color: #F8F8FF;
 }
 
 a:link,
@@ -17,23 +16,10 @@ a:hover {
   text-decoration: underline;
 }
 
-.img-homepage {
-  border: solid 2px red;
-  display: flex;
-  width: 100%;
+.homepage {
+  background-color: #F8F8FF;
 }
-.img-homepage__no-seeds {
-  width: 25%;
-}
-.img-homepage__dandelion {
-  width: 25%;
-}
-
-.wave-2 {
-  background-color: #F8ECC1;
-}
-
-.navigation {
+.homepage__navbar {
   width: 100%;
   height: 10vh;
   padding: 0 40px;
@@ -42,15 +28,15 @@ a:hover {
   align-items: center;
   font-size: 20px;
 }
-
-.header {
+.homepage__header {
   padding: 0 40px;
-  margin: 100px 0;
+  margin: 50px 0;
+  background-color: #F8F8FF;
 }
-.header__name {
+.homepage__name {
   font-size: 60px;
 }
-.header__title {
+.homepage__title {
   font-size: 40px;
 }
 
@@ -73,6 +59,10 @@ a:hover {
   padding: 40px 0;
   background-color: #D2E2E0;
   border: solid 2px red;
+}
+.about__image {
+  background-color: #D2E2E0;
+  text-align: right;
 }
 
 .skills {
@@ -135,4 +125,23 @@ a:hover {
   height: 100%;
   background-color: #D2E2E0;
   border: solid 2px red;
+}
+
+.homepage__image {
+  border: solid 2px red;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.homepage__image__dandelion-image-small {
+  max-width: 400px;
+  min-width: 300px;
+}
+.homepage__image__dandelion-image {
+  max-width: 400px;
+  min-width: 300px;
+}
+
+.wave-2 {
+  background-color: #F8ECC1;
 }
