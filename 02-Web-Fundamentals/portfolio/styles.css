@@ -29,7 +29,7 @@ a:hover {
   top: 0;
   width: 100%;
   height: 50px;
-  padding: 0 40px;
+  padding: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,8 +37,8 @@ a:hover {
   background-color: #F8F8FF;
 }
 .homepage__header {
-  padding: 40px 40px;
-  margin: 50px 50px;
+  padding: 40px;
+  margin: 50px;
   background-color: #F8F8FF;
 }
 .homepage__name {
@@ -52,26 +52,32 @@ a:hover {
 .about {
   width: 100%;
   background-color: #D2E2E0;
+  padding: 0 0 100px 0;
 }
 .about__heading {
+  width: 100%;
   font-size: 40px;
   text-align: center;
   padding: 40px 0;
   background-color: #D2E2E0;
 }
 .about__text {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   font-size: 25px;
-  text-align: center;
-  height: 100%;
   background-color: #D2E2E0;
 }
-.about__text div {
-  border: solid #606060 1px;
+.about__text__info {
+  border: solid #606060 2px;
   border-radius: 10px;
-  padding: 40px 40px;
-  margin: 20px 20px;
+  height: 400px;
+  width: 450px;
+  text-align: center;
+  padding: 30px;
+  margin: 20px;
 }
 
 .skills {
@@ -100,13 +106,13 @@ a:hover {
 .projects__heading {
   font-size: 40px;
   text-align: center;
-  padding: 40px 40px;
+  padding: 40px;
   background-color: #F8F8FF;
 }
 .projects__text {
   font-size: 25px;
   text-align: center;
-  padding: 40px 40px;
+  padding: 40px;
   height: 100%;
   background-color: #F8F8FF;
 }
@@ -120,7 +126,6 @@ a:hover {
   text-align: center;
   padding: 40px 0;
   background-color: #D2E2E0;
-  border: solid 2px red;
 }
 .contact__email {
   font-size: 25px;
@@ -128,12 +133,11 @@ a:hover {
   padding: 40px 0;
   height: 100%;
   background-color: #D2E2E0;
-  border: solid 2px red;
 }
 
 @media screen and (max-width: 768px) {
   .about__text {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
 }
 .homepage__image {
@@ -190,6 +194,11 @@ a:hover {
 
 @media screen and (max-width: 768px) {
   .homepage__image__dandelion-image-small {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact__image__dandelion-image-small {
     display: none;
   }
 }

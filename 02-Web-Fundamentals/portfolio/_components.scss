@@ -61,6 +61,12 @@
   }
 }
 
+@media screen and (max-width:768px) {
+  .contact__image__dandelion-image-small {
+    display: none;
+  }
+}
+
 // .wave-2 {
 //   background-color: $color-yellow;
 // }
