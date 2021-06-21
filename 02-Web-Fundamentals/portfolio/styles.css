@@ -71,7 +71,7 @@ a:hover {
   border: solid #606060 2px;
   border-radius: 10px;
   height: 400px;
-  width: 450px;
+  width: 400px;
   text-align: center;
   padding: 30px;
   margin: 20px;
@@ -169,6 +169,25 @@ a:hover {
   width: 100%;
   background-color: #D2E2E0;
   overflow: hidden;
+}
+
+#about-info-1 {
+  background-image: url(images/dandelion_flower.png);
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+#about-info-2 {
+  background-image: url(images/dandelion_no_seeds.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#about-info-3 {
+  background-image: url(images/dandelion_image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 768px) {
