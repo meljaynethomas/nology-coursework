@@ -43,8 +43,9 @@ a:hover {
 .about {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  border: solid black 2px;
   width: 100%;
+  background-color: #D2E2E0;
 }
 .about__heading {
   font-size: 40px;
@@ -63,7 +64,6 @@ a:hover {
 .skills {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   width: 100%;
 }
 .skills__heading {
@@ -83,7 +83,6 @@ a:hover {
 .projects {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 .projects__heading {
   font-size: 40px;
@@ -102,7 +101,6 @@ a:hover {
 .contact {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 .contact__heading {
   font-size: 40px;
@@ -124,6 +122,11 @@ a:hover {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+.homepage__image__dandelions {
+  width: auto;
+  max-width: 100%;
+  height: auto;
 }
 .homepage__image__dandelion-image-small {
   width: auto;
