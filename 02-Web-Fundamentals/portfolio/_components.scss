@@ -25,12 +25,6 @@
   overflow: hidden;
 }
 
-i {
-  width: 100%;
-  text-align: center;
-  background-color: $color-green;
-}
-
 @media screen and (max-width:768px) {
   .homepage__image__dandelion-image-small {
     display: none;

@@ -129,6 +129,12 @@
     height: 100%;
     background-color: $color-green;
   }
+
+  &__social {
+    font-size: 40px;
+    text-align: center;
+    background-color: $color-green;
+  }
 }
 
 @media screen and (max-width:768px) {

@@ -133,6 +133,11 @@ a:hover {
   height: 100%;
   background-color: #D2E2E0;
 }
+.contact__social {
+  font-size: 40px;
+  text-align: center;
+  background-color: #D2E2E0;
+}
 
 @media screen and (max-width: 768px) {
   .about__text {
@@ -164,12 +169,6 @@ a:hover {
   width: 100%;
   background-color: #D2E2E0;
   overflow: hidden;
-}
-
-i {
-  width: 100%;
-  text-align: center;
-  background-color: #D2E2E0;
 }
 
 @media screen and (max-width: 768px) {
