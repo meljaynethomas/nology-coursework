@@ -2,23 +2,29 @@
   background-color: $color-secondary;
 
   &__navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
     width: 100%;
-    height: 10vh;
+    height: 50px;
     padding: 0 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
+    background-color: $color-secondary; 
+    // change background colour when scrolling?
   }
 
   &__header {
-    padding: 0 40px;
-    margin: 50px 0;
+    padding: 40px 40px;
+    margin: 50px 50px;
     background-color: $color-secondary;
   }
 
   &__name {
     font-size: 60px;
+    margin-top: 50px;
   }
 
   &__title {
@@ -29,9 +35,8 @@
 // check use of text-align below - shouldn't i be able to use align-items? it's not working!
 
 .about {
-  display: flex;
-  flex-direction: column;
-  border: solid black 2px;
+  // display: flex;
+  // flex-direction: column;
   width: 100%;
   background-color: $color-green;
   // background: url(images/dandelion_seeds.png);
@@ -45,11 +50,19 @@
   }
 
   &__text {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     font-size: 25px;
     text-align: center;
     height: 100%;
-    padding: 40px 0;
     background-color: $color-green;
+
+    div {
+      border: solid $color-primary 1px;
+      border-radius: 10px;
+      padding: 40px 40px;
+      margin: 20px 20px;
+    }
   }
 }
 
@@ -113,5 +126,11 @@
     height: 100%;
     background-color: $color-green;
     border: solid 2px red;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .about__text {
+    grid-template-columns: 1fr;
   }
 }
