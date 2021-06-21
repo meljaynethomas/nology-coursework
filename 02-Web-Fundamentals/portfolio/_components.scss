@@ -2,24 +2,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-
-  &__dandelions {
-    width: auto;
-      max-width: 100%;
-      height: auto;
-  }
-
-  &__dandelion-image-small {
-      width: auto;
-      max-width: 100%;
-      height: auto;
-    }
-
-  &__dandelion-image {
-      width: auto;
-      max-width: 100%;
-      height: auto;
-  }  
+  overflow: hidden;
 }
 
 .skills__image {
@@ -39,20 +22,13 @@
   justify-content: center;
   width: 100%;
   background-color: $color-green;
+  overflow: hidden;
+}
 
-  &__dandelion-image-small {
-      width: auto;
-      max-width: 100%;
-      height: auto;
-      background-color: $color-green;
-    }
-
-  &__dandelion-image {
-      width: auto;
-      max-width: 100%;
-      height: auto;
-      background-color: $color-green;
-  }  
+i {
+  width: 100%;
+  text-align: center;
+  background-color: $color-green;
 }
 
 @media screen and (max-width:768px) {
