@@ -68,6 +68,8 @@ a:hover {
   background-color: #D2E2E0;
 }
 .about__text__info {
+  position: relative;
+  display: flex;
   border: solid #606060 2px;
   border-radius: 10px;
   height: 400px;
@@ -76,11 +78,17 @@ a:hover {
   padding: 30px;
   margin: 20px;
 }
+.about__text__info p {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}
 
 .skills {
-  display: flex;
-  flex-direction: column;
   width: 100%;
+  height: auto;
+  background-color: #F8ECC1;
 }
 .skills__heading {
   font-size: 40px;
@@ -91,9 +99,17 @@ a:hover {
 .skills__text {
   font-size: 25px;
   text-align: center;
-  height: 100%;
   padding: 40px 0px;
   background-color: #F8ECC1;
+}
+.skills__tech {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  padding: 40px;
+  justify-content: center;
+  place-items: center;
 }
 
 .projects {
@@ -139,9 +155,14 @@ a:hover {
   background-color: #D2E2E0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1320px) {
   .about__text {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .skills__tech {
+    grid-template-columns: 1fr 1fr;
   }
 }
 .homepage__image {
@@ -151,10 +172,8 @@ a:hover {
   overflow: hidden;
 }
 
-.skills__image {
-  display: flex;
-  justify-content: flex-end;
-  background-color: #F8ECC1;
+[id^=skills__tech__]:hover {
+  filter: drop-shadow(2px 2px 5px);
 }
 
 .projects__image {
@@ -171,23 +190,12 @@ a:hover {
   overflow: hidden;
 }
 
-#about-info-1 {
-  background-image: url(images/dandelion_flower.png);
-  background-size: 250px 250px;
-  background-repeat: no-repeat;
-  background-position: center bottom;
+.wave-2, .wave-3 {
+  background-color: #F8ECC1;
 }
 
-#about-info-2 {
-  background-image: url(images/dandelion_no_seeds.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#about-info-3 {
-  background-image: url(images/dandelion_image.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+.wave-4 {
+  background-color: #D2E2E0;
 }
 
 @media screen and (max-width: 768px) {

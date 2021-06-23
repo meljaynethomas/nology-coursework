@@ -57,6 +57,8 @@
     background-color: $color-green;
       
     &__info {
+      position: relative;
+      display: flex;
       border: solid $color-primary 2px;
       border-radius: 10px;
       height: 400px;
@@ -64,14 +66,21 @@
       text-align: center;
       padding: 30px;
       margin: 20px;
+
+        p {
+          position: absolute;
+          top: 200px;
+          left: 0;
+          width: 100%;
+        }
     } 
   }
 }
 
 .skills {
-  display: flex;
-  flex-direction: column;
   width: 100%;
+  height: auto;
+  background-color: $color-yellow;
 
   &__heading {
     font-size: 40px;
@@ -83,9 +92,18 @@
   &__text {
     font-size: 25px;
     text-align: center;
-    height: 100%;
     padding: 40px 0px;
     background-color: $color-yellow;
+  }
+
+  &__tech {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding: 40px;
+    justify-content: center;
+    place-items: center;
   }
 }
 
@@ -137,8 +155,14 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1320px) {
   .about__text {
     flex-direction: column;
   }
 }
+
+@media screen and (max-width:768px) {
+  .skills__tech {
+    grid-template-columns: 1fr 1fr;
+  }
+} 

@@ -5,10 +5,27 @@
   overflow: hidden;
 }
 
-.skills__image {
-  display: flex;
-  justify-content: flex-end;
-  background-color: $color-yellow;
+// #about-info-1 {
+//   background-image: url(images/dandelion_flower.png);
+//   background-size: 250px 250px;
+//   background-repeat: no-repeat;
+//   background-position: center bottom;
+// }
+
+// #about-info-2 {
+//   background-image: url(images/dandelion_no_seeds.png);
+//   background-size: cover;
+//   background-repeat: no-repeat;
+// }
+
+// #about-info-3 {
+//   background-image: url(images/dandelion_image.png);
+//   background-size: cover;
+//   background-repeat: no-repeat;
+// }
+
+[id^='skills__tech__']:hover {
+  filter: drop-shadow(2px 2px 5px);
 }
 
 .projects__image {
@@ -25,23 +42,12 @@
   overflow: hidden;
 }
 
-#about-info-1 {
-  background-image: url(images/dandelion_flower.png);
-  background-size: 250px 250px;
-  background-repeat: no-repeat;
-  background-position: center bottom;
+.wave-2, .wave-3 {
+  background-color: $color-yellow;
 }
 
-#about-info-2 {
-  background-image: url(images/dandelion_no_seeds.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#about-info-3 {
-  background-image: url(images/dandelion_image.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+.wave-4 {
+  background-color: $color-green;
 }
 
 @media screen and (max-width:768px) {
@@ -55,7 +61,3 @@
     display: none;
   }
 }
-
-// .wave-2 {
-//   background-color: $color-yellow;
-// }
