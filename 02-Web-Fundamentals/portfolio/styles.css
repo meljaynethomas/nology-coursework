@@ -172,6 +172,14 @@ a:hover {
   overflow: hidden;
 }
 
+.about__text__info {
+  background-image: url(images/dandelion_seeds.png);
+  background-color: #D2E2E0;
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  background-position: 225% 200%;
+}
+
 [id^=skills__tech__]:hover {
   filter: drop-shadow(2px 2px 5px);
 }

@@ -5,24 +5,13 @@
   overflow: hidden;
 }
 
-// #about-info-1 {
-//   background-image: url(images/dandelion_flower.png);
-//   background-size: 250px 250px;
-//   background-repeat: no-repeat;
-//   background-position: center bottom;
-// }
-
-// #about-info-2 {
-//   background-image: url(images/dandelion_no_seeds.png);
-//   background-size: cover;
-//   background-repeat: no-repeat;
-// }
-
-// #about-info-3 {
-//   background-image: url(images/dandelion_image.png);
-//   background-size: cover;
-//   background-repeat: no-repeat;
-// }
+.about__text__info {
+  background-image: url(images/dandelion_seeds.png);
+  background-color: $color-green;
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  background-position: 225% 200%;
+}
 
 [id^='skills__tech__']:hover {
   filter: drop-shadow(2px 2px 5px);
