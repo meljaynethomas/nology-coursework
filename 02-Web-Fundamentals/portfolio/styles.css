@@ -113,9 +113,8 @@ a:hover {
 }
 
 .projects {
-  display: flex;
-  flex-direction: column;
   width: 100%;
+  height: auto;
 }
 .projects__heading {
   font-size: 40px;
@@ -123,9 +122,10 @@ a:hover {
   padding: 40px;
   background-color: #F8F8FF;
 }
-.projects__text {
-  font-size: 25px;
-  text-align: center;
+.projects__portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 40px;
   height: 100%;
   background-color: #F8F8FF;
@@ -184,10 +184,48 @@ a:hover {
   filter: drop-shadow(2px 2px 5px);
 }
 
-.projects__image {
-  display: flex;
-  justify-content: flex-end;
-  background-color: #F8F8FF;
+.projects__portfolio__bakery {
+  position: relative;
+  height: 400px;
+  width: auto;
+}
+
+.projects__portfolio__bakery-image {
+  display: block;
+  height: 400px;
+  width: auto;
+  border: solid 2px #606060;
+  border-radius: 10px;
+}
+
+.projects__portfolio__bakery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 400px;
+  width: auto;
+  border: solid 2px #606060;
+  border-radius: 10px;
+  background-color: #D2E2E0;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.projects__portfolio__bakery-overlay:hover {
+  opacity: 1;
+}
+
+.projects__portfolio__bakery-heading {
+  text-align: center;
+  font-size: 25px;
+  padding: 60px;
+}
+
+.projects__portfolio__bakery-text {
+  text-align: center;
+  font-size: 20px;
 }
 
 .contact__image {
