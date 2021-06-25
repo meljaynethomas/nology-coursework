@@ -20,11 +20,14 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
+.homepage__navbar__button:hover {
   text-decoration: underline;
 }
 
 #contact__social__github,
-#contact__social__linkedin:hover {
+#contact__social__linkedin,
+#projects__portfolio__bakery-button,
+#projects__portfolio__placeholder-button-1,
+#projects__portfolio__placeholder-button-2:hover {
   text-decoration: none;
 }

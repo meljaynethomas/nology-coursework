@@ -12,12 +12,15 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
+.homepage__navbar__button:hover {
   text-decoration: underline;
 }
 
 #contact__social__github,
-#contact__social__linkedin:hover {
+#contact__social__linkedin,
+#projects__portfolio__bakery-button,
+#projects__portfolio__placeholder-button-1,
+#projects__portfolio__placeholder-button-2:hover {
   text-decoration: none;
 }
 
@@ -115,7 +118,7 @@ a:hover {
 
 .projects {
   width: 100%;
-  height: auto;
+  height: 1000px;
 }
 .projects__heading {
   font-size: 40px;
@@ -186,7 +189,6 @@ a:hover {
 }
 
 .projects__portfolio__bakery {
-  flex: 2 1 auto;
   position: relative;
   height: 400px;
   width: 600px;
@@ -261,10 +263,54 @@ a:hover {
 }
 
 .projects__portfolio__placeholder-text {
-  justify-content: center;
   text-align: center;
   font-size: 25px;
   padding: 60px;
+}
+
+#projects__portfolio__bakery-button {
+  height: 40px;
+  width: 140px;
+  text-align: center;
+  background-color: #F8F8FF;
+  border: 2px solid #606060;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#projects__portfolio__placeholder-button-1 {
+  height: 40px;
+  width: 140px;
+  text-align: center;
+  background-color: #F8F8FF;
+  border: 2px solid #606060;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#projects__portfolio__placeholder-button-2 {
+  height: 40px;
+  width: 140px;
+  text-align: center;
+  background-color: #F8F8FF;
+  border: 2px solid #606060;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .contact__image {

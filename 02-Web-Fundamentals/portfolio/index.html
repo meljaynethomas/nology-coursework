@@ -13,11 +13,11 @@
   <body>
     <section class="homepage" id="homepage">
       <nav class="homepage__navbar">
-        <a href="#homepage">home</a>
-        <a href="#about">about</a>
-        <a href="#skills">skills</a>
-        <a href="#projects">projects</a>
-        <a href="#contact">contact</a>
+        <a class="homepage__navbar__button" href="#homepage">home</a>
+        <a class="homepage__navbar__button" href="#about">about</a>
+        <a class="homepage__navbar__button" href="#skills">skills</a>
+        <a class="homepage__navbar__button" href="#projects">projects</a>
+        <a class="homepage__navbar__button" href="#contact">contact</a>
       </nav>
       <header class="homepage__header">
         <h1 class="homepage__name">mel thomas</h1>
@@ -223,26 +223,28 @@
     <section class="projects" id="projects">
       <h1 class="projects__heading">projects</h1>
       <div class="projects__portfolio">
-        
-
-
         <div class="projects__portfolio__bakery">
           <img class="projects__portfolio__bakery-image" src="images/bears_bakery.png" alt="Bears Bakery Homepage">
           <div class="projects__portfolio__bakery-overlay">
             <p class="projects__portfolio__bakery-text">landing page design for fictional Surrey bakery created with Figma, demonstrating UI principles</p>
+            <div id="projects__portfolio__bakery-button">
+              <a href="https://www.figma.com/file/U5rdvHGI8coRGZ2z2gID85/Bears-Bakery?node-id=0%3A1" target="blank">view prototype</a>
+            </div>
           </div>
         </div>
-
         <div class="projects__portfolio__placeholder">
           <img class="projects__portfolio__placeholder-image" src="images/portfolio-homepage.png" alt="Placeholder Image">
           <div class="projects__portfolio__placeholder-overlay">
             <p class="projects__portfolio__placeholder-text">i created my own portfolio website using html, css, flexbox and grid. i also used sass and bem.</p>
+            <div id="projects__portfolio__placeholder-button-1">
+              <a href="" target="blank">visit website</a>
+            </div>
+            <div id="projects__portfolio__placeholder-button-2">
+              <a href="https://github.com/meljaynethomas/nology-coursework/tree/main/02-Web-Fundamentals/portfolio" target="blank">view source code</a>
+            </div>
           </div>
         </div>
-         
-        
       </div>   
-        
     <svg
       class="wave-4"
       xmlns="http://www.w3.org/2000/svg"
