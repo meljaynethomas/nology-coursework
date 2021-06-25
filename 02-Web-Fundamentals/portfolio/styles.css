@@ -16,7 +16,8 @@ a:hover {
   text-decoration: underline;
 }
 
-#nology-link:hover {
+#contact__social__github,
+#contact__social__linkedin:hover {
   text-decoration: none;
 }
 
@@ -185,15 +186,16 @@ a:hover {
 }
 
 .projects__portfolio__bakery {
+  flex: 2 1 auto;
   position: relative;
   height: 400px;
-  width: auto;
+  width: 600px;
 }
 
 .projects__portfolio__bakery-image {
   display: block;
   height: 400px;
-  width: auto;
+  width: 600px;
   border: solid 2px #606060;
   border-radius: 10px;
 }
@@ -203,7 +205,7 @@ a:hover {
   top: 0;
   left: 0;
   height: 400px;
-  width: auto;
+  width: 600px;
   border: solid 2px #606060;
   border-radius: 10px;
   background-color: #D2E2E0;
@@ -217,15 +219,52 @@ a:hover {
   opacity: 1;
 }
 
-.projects__portfolio__bakery-heading {
+.projects__portfolio__bakery-text {
+  justify-content: center;
   text-align: center;
   font-size: 25px;
   padding: 60px;
 }
 
-.projects__portfolio__bakery-text {
+.projects__portfolio__placeholder {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  margin: 50px;
+}
+
+.projects__portfolio__placeholder-image {
+  display: block;
+  height: 400px;
+  width: 600px;
+  border: solid 2px #606060;
+  border-radius: 10px;
+}
+
+.projects__portfolio__placeholder-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 400px;
+  width: 600px;
+  border: solid 2px #606060;
+  border-radius: 10px;
+  background-color: #D2E2E0;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.projects__portfolio__placeholder-overlay:hover {
+  opacity: 1;
+}
+
+.projects__portfolio__placeholder-text {
+  justify-content: center;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
+  padding: 60px;
 }
 
 .contact__image {

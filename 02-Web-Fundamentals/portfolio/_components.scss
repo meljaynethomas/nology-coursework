@@ -20,13 +20,13 @@
 .projects__portfolio__bakery {
   position: relative;
   height: 400px;
-  width: auto;
+  width: 600px;
 }
 
 .projects__portfolio__bakery-image {
   display: block;
   height: 400px;
-  width: auto;
+  width: 600px;
   border: solid 2px $color-primary;
   border-radius: 10px;
 }
@@ -36,7 +36,7 @@
   top: 0;
   left: 0;
   height: 400px;
-  width: auto;
+  width: 600px;
   border: solid 2px $color-primary;
   border-radius: 10px;
   background-color: $color-green;
@@ -50,15 +50,52 @@
   opacity: 1;
 }
 
-.projects__portfolio__bakery-heading {
+.projects__portfolio__bakery-text {
+  justify-content: center;
   text-align: center;
   font-size: 25px;
   padding: 60px;
 }
 
-.projects__portfolio__bakery-text {
+.projects__portfolio__placeholder {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  margin: 50px;
+}
+
+.projects__portfolio__placeholder-image {
+  display: block;
+  height: 400px;
+  width: 600px;
+  border: solid 2px $color-primary;
+  border-radius: 10px;
+}
+
+.projects__portfolio__placeholder-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 400px;
+  width: 600px;
+  border: solid 2px $color-primary;
+  border-radius: 10px;
+  background-color: $color-green;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.projects__portfolio__placeholder-overlay:hover {
+  opacity: 1;
+}
+
+.projects__portfolio__placeholder-text {
+  justify-content: center;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
+  padding: 60px;
 }
 
 .contact__image {
