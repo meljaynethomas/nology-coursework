@@ -7,7 +7,7 @@
 
 .about__text__info {
   background-image: url(images/dandelion_seeds.png);
-  background-color: $color-green;
+  background-color: $color-tertiary;
   background-size: 300px 300px;
   background-repeat: no-repeat;
   background-position: 225% 200%;
@@ -39,7 +39,7 @@
   width: 600px;
   border: solid 2px $color-primary;
   border-radius: 10px;
-  background-color: $color-green;
+  background-color: $color-tertiary;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -80,7 +80,7 @@
   width: 600px;
   border: solid 2px $color-primary;
   border-radius: 10px;
-  background-color: $color-green;
+  background-color: $color-tertiary;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -146,16 +146,16 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: $color-green;
+  background-color: $color-tertiary;
   overflow: hidden;
 }
 
 .wave-2, .wave-3 {
-  background-color: $color-yellow;
+  background-color: $color-accent;
 }
 
 .wave-4 {
-  background-color: $color-green;
+  background-color: $color-tertiary;
 }
 
 @media screen and (max-width:768px) {
