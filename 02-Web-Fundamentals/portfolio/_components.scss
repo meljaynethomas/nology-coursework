@@ -6,7 +6,7 @@
 }
 
 .about__text__info {
-  background-image: url(images/dandelion_seeds.png);
+  background-image: url("./images/dandelion_seeds.png");
   background-color: $color-tertiary;
   background-size: 300px 300px;
   background-repeat: no-repeat;
@@ -17,53 +17,14 @@
   filter: drop-shadow(2px 2px 5px);
 }
 
-.projects__portfolio__bakery {
-  position: relative;
-  height: 400px;
-  width: 600px;
-}
-
-.projects__portfolio__bakery-image {
-  display: block;
-  height: 400px;
-  width: 600px;
-  border: solid 2px $color-primary;
-  border-radius: 10px;
-}
-
-.projects__portfolio__bakery-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 400px;
-  width: 600px;
-  border: solid 2px $color-primary;
-  border-radius: 10px;
-  background-color: $color-tertiary;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.25s;
-}
-
-.projects__portfolio__bakery-overlay:hover {
-  opacity: 1;
-}
-
-.projects__portfolio__bakery-text {
-  justify-content: center;
-  text-align: center;
-  font-size: 25px;
-  padding: 60px;
-}
-
+.projects__portfolio__bakery,
 .projects__portfolio__placeholder {
   position: relative;
   height: 400px;
   width: 600px;
-  margin: 50px;
 }
 
+.projects__portfolio__bakery-image,
 .projects__portfolio__placeholder-image {
   display: block;
   height: 400px;
@@ -72,6 +33,7 @@
   border-radius: 10px;
 }
 
+.projects__portfolio__bakery-overlay,
 .projects__portfolio__placeholder-overlay {
   position: absolute;
   top: 0;
@@ -87,60 +49,28 @@
   transition: opacity 0.25s;
 }
 
+.projects__portfolio__bakery-overlay:hover,
 .projects__portfolio__placeholder-overlay:hover {
   opacity: 1;
 }
 
+.projects__portfolio__bakery-text,
 .projects__portfolio__placeholder-text {
+  justify-content: center;
   text-align: center;
   font-size: 25px;
   padding: 60px;
 }
 
-#projects__portfolio__bakery-button {
-  height: 40px;
-  width: 140px;
-  text-align: center;
-  background-color: $color-secondary;
-  border: 2px solid $color-primary;
-  border-radius: 10px;
-  margin: auto;
-  padding: 10px;
-  font-size: 15px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  text-decoration: none;
+#projects__portfolio__bakery-button,
+#projects__portfolio__placeholder-button-1 {
+  @extend %button;
   }
 
-  #projects__portfolio__placeholder-button-1 {
-    height: 40px;
-    width: 140px;
-    text-align: center;
-    background-color: $color-secondary;
-    border: 2px solid $color-primary;
-    border-radius: 10px;
-    margin: auto;
-    padding: 10px;
-    font-size: 15px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    text-decoration: none;
-    }
-
-    #projects__portfolio__placeholder-button-2 {
-      height: 40px;
-      width: 140px;
-      text-align: center;
-      background-color: $color-secondary;
-      border: 2px solid $color-primary;
-      border-radius: 10px;
-      margin: auto;
-      margin-top: 10px;
-      padding: 10px;
-      font-size: 15px;
-      transition-duration: 0.4s;
-      cursor: pointer;
-      }
+#projects__portfolio__placeholder-button-2 {
+  @extend %button;
+  margin-top: 10px;
+}
 
 .contact__image {
   display: flex;

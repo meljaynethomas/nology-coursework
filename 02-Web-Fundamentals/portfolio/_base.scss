@@ -31,3 +31,18 @@ a:visited {
 #projects__portfolio__placeholder-button-2:hover {
   text-decoration: none;
 }
+
+%button {
+  height: 40px;
+  width: 140px;
+  text-align: center;
+  background-color: $color-secondary;
+  border: 2px solid $color-primary;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+}
