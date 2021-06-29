@@ -18,14 +18,12 @@ a:visited {
 
 #contact__social__github,
 #contact__social__linkedin,
-#projects__portfolio__bakery-button,
-#projects__portfolio__placeholder-button-1,
-#projects__portfolio__placeholder-button-2:hover {
+.projects__portfolio__button,
+.projects__portfolio__button-2:hover {
   text-decoration: none;
 }
 
-#projects__portfolio__placeholder-button-2, #projects__portfolio__bakery-button,
-#projects__portfolio__placeholder-button-1 {
+.projects__portfolio__button-2, .projects__portfolio__button {
   height: 40px;
   width: 140px;
   text-align: center;
@@ -203,15 +201,13 @@ a:visited {
   filter: drop-shadow(2px 2px 5px);
 }
 
-.projects__portfolio__bakery,
-.projects__portfolio__placeholder {
+.projects__portfolio__display {
   position: relative;
   height: 400px;
   width: 600px;
 }
 
-.projects__portfolio__bakery-image,
-.projects__portfolio__placeholder-image {
+.projects__portfolio__image {
   display: block;
   height: 400px;
   width: 600px;
@@ -219,8 +215,7 @@ a:visited {
   border-radius: 10px;
 }
 
-.projects__portfolio__bakery-overlay,
-.projects__portfolio__placeholder-overlay {
+.projects__portfolio__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -235,20 +230,18 @@ a:visited {
   transition: opacity 0.25s;
 }
 
-.projects__portfolio__bakery-overlay:hover,
-.projects__portfolio__placeholder-overlay:hover {
+.projects__portfolio__overlay:hover {
   opacity: 1;
 }
 
-.projects__portfolio__bakery-text,
-.projects__portfolio__placeholder-text {
+.projects__portfolio__text {
   justify-content: center;
   text-align: center;
   font-size: 25px;
   padding: 60px;
 }
 
-#projects__portfolio__placeholder-button-2 {
+.projects__portfolio__button-2 {
   margin-top: 10px;
 }
 
