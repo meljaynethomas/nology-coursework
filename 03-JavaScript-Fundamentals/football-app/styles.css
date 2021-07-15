@@ -2,4 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(162, 201, 162);
+  font-family: 'Zen Loop', cursive;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 150px;
+}
+
+html {
+  background-image: url(/football-img.png);
+  background-repeat: repeat-x; 
+  background-size: 100px 100px;
+}
+
+form {
+  text-align: center;
+  font-size: 30px;
+}
+
+input {
+  font-size: 30px;
+  margin: 10px;
 }

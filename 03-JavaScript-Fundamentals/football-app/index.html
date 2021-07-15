@@ -7,9 +7,19 @@
   <title>Match Score</title>
   <link rel="stylesheet" href="styles.css">
   <script src="script.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+    </style>
 </head>
 <body>
   <h1>Keep Score!</h1>
-  
+  <form>
+    <label for="currentScore">Team One's Score is:</label>
+    <input type="text" id="currentScore1" value="0"/>
+    <input type="button" onclick="handleTeamOneClick()" value="Add Goal"/><br>
+    <label for="currentScore">Team Two's Score is:</label>
+    <input type="text" id="currentScore2" value="0"/>
+    <input type="button" onclick="handleTeamTwoClick()" value="Add Goal"/><br>
+  </form>
 </body>
 </html>
