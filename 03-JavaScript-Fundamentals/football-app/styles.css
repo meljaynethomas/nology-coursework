@@ -27,3 +27,15 @@ input {
   font-size: 30px;
   margin: 10px;
 }
+
+#currentScore1, 
+#currentScore2 {
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.goalButton {
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
